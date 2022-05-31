@@ -1,0 +1,5 @@
+import turtle
+for i in range(10):
+  turtle.speed(10-i)
+  turtle.forward(50+10*i)
+  turtle.right(90)
