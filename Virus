@@ -1,0 +1,10 @@
+import turtle
+t = turtle.Turtle()
+t.speed(0)
+t.color('cyan')
+t.bgcolor('black')
+b = 200
+while b>0:
+  t.left(b)
+  t.forward(b * 3)
+  b = b - 1
